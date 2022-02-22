@@ -1,0 +1,11 @@
+
+SELECT (name) FROM `students` WHERE YEAR(date_of_birth) = 1990
+
+
+SELECT (name) FROM `courses` WHERE (cfu) > 10
+
+
+SELECT (name) FROM `students` WHERE YEAR(date_of_birth) < 1992
+
+
+SELECT * FROM `courses` WHERE (period) = "I semestre" AND (year)=1
