@@ -37,7 +37,9 @@ AS n_dipartimenti
 FROM `departments`
 
 
-
+SELECT COUNT(id) 
+FROM `teachers` 
+WHERE (phone) IS NULL
 
 
 
