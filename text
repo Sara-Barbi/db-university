@@ -42,4 +42,14 @@ FROM `teachers`
 WHERE (phone) IS NULL
 
 
+SELECT COUNT(id) AS "n_iscritti",YEAR(enrolment_date) AS "anno" 
+FROM `students` 
+GROUP BY (anno)
+
+
+SELECT COUNT(id) AS "n_insegnanti", office_address 
+FROM `teachers`
+GROUP BY (office_address)
+
+
 
